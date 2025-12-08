@@ -16,7 +16,12 @@ public class XMLImportResource {
 	    @Path("/import")
 	    public Response importXml() {
 
-	        String filePath = "data/projections.xml";
+	    	String filePath = getClass()
+	                .getClassLoader()
+	                .getResource("data/projections.xml")
+	                .getFile();
+	    	
+	    	System.out.println("FILE PATH = " + filePath);
 
 	        service.importFromXML(filePath);
 
