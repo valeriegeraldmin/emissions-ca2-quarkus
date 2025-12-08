@@ -1,4 +1,9 @@
+C:\emissions-ca2\src\main\java\ie\valerie\ca2\entity\Emission.java
 C:\emissions-ca2\src\main\java\ie\valerie\ca2\entity\User.java
 C:\emissions-ca2\src\main\java\ie\valerie\ca2\GreetingResource.java
 C:\emissions-ca2\src\main\java\ie\valerie\ca2\GreetingService.java
+C:\emissions-ca2\src\main\java\ie\valerie\ca2\repository\EmissionRepository.java
+C:\emissions-ca2\src\main\java\ie\valerie\ca2\repository\UserRepository.java
+C:\emissions-ca2\src\main\java\ie\valerie\ca2\resource\UserResource.java
+C:\emissions-ca2\src\main\java\ie\valerie\ca2\security\PasswordService.java
 C:\emissions-ca2\src\main\java\ie\valerie\ca2\TestResource.java
