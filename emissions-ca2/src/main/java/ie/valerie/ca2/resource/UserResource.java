@@ -8,6 +8,8 @@ import jakarta.transaction.Transactional;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
+import jakarta.ws.rs.Consumes;
+import jakarta.ws.rs.Produces;
 
 
 @Path("/users")
@@ -48,6 +50,8 @@ public class UserResource {
     //LOGIN
     @POST
     @Path("/login")
+    @Consumes(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.APPLICATION_JSON)
     public Response login(User userRequest) {
 
         User user = userRepository.findByUsername(userRequest.username);

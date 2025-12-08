@@ -37,7 +37,7 @@ public class Emission extends PanacheEntity{
     public Emission() {
     }
 
-    public Emission(String categoryCode, double predictedValue, double actualValue) {
+    public Emission(String categoryCode, double predictedValue, double actualValue,int year,String scenario) {
     	 this.categoryCode = categoryCode;
          this.predictedValue = predictedValue;
          this.actualValue = actualValue;
